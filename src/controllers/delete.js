@@ -10,6 +10,7 @@ const provider = new JsonRpcProvider(alchemyUrl);
 const privateKey = '5905d9998c162bacdcb1d58a08bf474e6334dc4914165f96901f8816abcd4f45';
 const wallet = new Wallet(privateKey, provider);
 
+
 const contractAddress = '0x937047e048ce95503c07ebb64b5ad2c88bd7a55a'; // Address of your deployed contract
 const DocumentNFTABI = [
   {

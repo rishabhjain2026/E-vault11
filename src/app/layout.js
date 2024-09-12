@@ -7,6 +7,7 @@ import { LoadData } from "@/components/other/LoadData";
 import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
+
 export const metadata = {
   title: "Evault",
   description: "An Legal Records Management System",

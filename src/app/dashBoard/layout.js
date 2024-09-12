@@ -4,6 +4,7 @@ import { Toaster } from "react-hot-toast";
 import { useSelector } from "react-redux";
 export default function RootLayout({ children }) {
   const user = useSelector((state) => state);
+  
 
   return (
     <html lang="en">

@@ -8,6 +8,7 @@ import Web3 from 'web3';
 import { MintAbi } from '@/contracts/ABIs/mint';
 import { DocumentAddress } from '@/contracts/ABIs/mint';
 import toast from "react-hot-toast";
+
 export default function Home() {
   const [file, setFile] = useState(null); // Change to null initial state
   const [uploading, setUploading] = useState(false);

@@ -16,6 +16,7 @@ export default function Home() {
     const [balance, setBalance] = useState('');
     const [lastTransactions, setLastTransactions] = useState(null);
    
+    
     useEffect(() => {
         const loadWeb3 = async () => {
             if (window.ethereum) {

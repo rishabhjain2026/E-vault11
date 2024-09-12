@@ -13,6 +13,7 @@ const userSchema = new mongoose.Schema({
     },
    
 
+    
 })
 
 const User = mongoose.models.users || mongoose.model("users", userSchema); //if user collection is already created then use that else create one as user.

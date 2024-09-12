@@ -9,6 +9,7 @@ import toast from "react-hot-toast";
 import Loader from "@/components/utlis/Loader";
 import Web3 from "web3";
 
+
 const Home = () => {
   const [loading,setLoading] = React.useState(false);
   const router = useRouter();
